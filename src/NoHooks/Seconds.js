@@ -10,7 +10,7 @@ class Seconds extends Component {
        }, 1000)  
   }
 
-  componentWillMount() {
+  componentWillUnmount() {
     clearInterval(this.intervalId);
   }
   
